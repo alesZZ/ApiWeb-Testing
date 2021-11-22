@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 namespace AppWeb_Api.BoundedAnnouncement.Controllers
 {
-    //controller
+    //controllerAnnouncement
     //[Authorize]
     [ApiController]
     [Route("/api/v1/[controller]")]
