@@ -5,17 +5,17 @@ using System.CodeDom.Compiler;
 using global::System.Runtime.CompilerServices;
 
 [assembly: global::Xunit.TestFramework("TechTalk.SpecFlow.xUnit.SpecFlowPlugin.XunitTestFrameworkWithAssemblyFixture", "TechTalk.SpecFlow.xUnit.SpecFlowPlugin")]
-[assembly: global::TechTalk.SpecFlow.xUnit.SpecFlowPlugin.AssemblyFixture(typeof(global::AppWeb_Api_Tests_XUnitAssemblyFixture))]
+[assembly: global::TechTalk.SpecFlow.xUnit.SpecFlowPlugin.AssemblyFixture(typeof(global::AppWebApi_Test_XUnitAssemblyFixture))]
 
-[GeneratedCode("SpecFlow", "3.9.22")]
-public class AppWeb_Api_Tests_XUnitAssemblyFixture : global::System.IDisposable
+[GeneratedCode("SpecFlow", "3.9.40")]
+public class AppWebApi_Test_XUnitAssemblyFixture : global::System.IDisposable
 {
     private readonly global::System.Reflection.Assembly _currentAssembly;
 
     [MethodImpl(MethodImplOptions.NoInlining)]
-    public AppWeb_Api_Tests_XUnitAssemblyFixture()
+    public AppWebApi_Test_XUnitAssemblyFixture()
     {
-        _currentAssembly = typeof(AppWeb_Api_Tests_XUnitAssemblyFixture).Assembly;
+        _currentAssembly = typeof(AppWebApi_Test_XUnitAssemblyFixture).Assembly;
         global::TechTalk.SpecFlow.TestRunnerManager.OnTestRunStart(_currentAssembly);
     }
 
@@ -27,7 +27,7 @@ public class AppWeb_Api_Tests_XUnitAssemblyFixture : global::System.IDisposable
 }
 
 [global::Xunit.CollectionDefinition("SpecFlowNonParallelizableFeatures", DisableParallelization = true)]
-public class AppWeb_Api_Tests_SpecFlowNonParallelizableFeaturesCollectionDefinition
+public class AppWebApi_Test_SpecFlowNonParallelizableFeaturesCollectionDefinition
 {
 }
 #pragma warning restore
